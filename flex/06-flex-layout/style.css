@@ -29,9 +29,25 @@ input {
 
 ul {
   list-style-type: none;
+  display: flex;
+  gap: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 a {
   text-decoration: none;
   color: grey;
+}
+
+.header, .footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
