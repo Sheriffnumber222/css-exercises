@@ -31,14 +31,17 @@
 }
 
 .logo {
-  grid-row: 2;
+  align-self: center;
 }
 
 .menu {
-  grid-row: 2;
+  align-self: center;
+  display: inline-grid;
+  grid-template-columns: 1fr 4fr;
 }
 
 .menu ul {
+  grid-column: 2;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
